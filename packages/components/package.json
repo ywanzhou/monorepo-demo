@@ -7,9 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
   "type": "module",
-  "license": "ISC",
+  "author": "ywanzhou",
+  "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.21",
     "@packages/utils": "workspace:^1.0.0"
