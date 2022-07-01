@@ -14,7 +14,10 @@ importers:
       lodash: registry.npmmirror.com/lodash/4.17.21
 
   packages/core:
-    specifiers: {}
+    specifiers:
+      '@packages/utils': workspace:*
+    dependencies:
+      '@packages/utils': link:../utils
 
   packages/utils:
     specifiers:

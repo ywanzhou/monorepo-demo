@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "ywanzhou",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@packages/utils": "workspace:*"
+  }
 }
